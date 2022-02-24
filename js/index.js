@@ -19,7 +19,7 @@ const displayDog=(cats)=>{
 for(const cat of all){
     const div= document.createElement('div');
     //  console.log(dog);
-    div.className="col-lg-6"
+    div.className="col-lg-6 my-3"
     div.innerHTML=`<h2>${cat.name}</h2>
     <img  src="${cat.image.url}" class="img-fluid" alt="...">
     <p> ${cat.description} </span></p>`
